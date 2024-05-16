@@ -1,0 +1,135 @@
+{
+    "basics": {
+      "name": "Michael Venade",
+      "label": "Frontend Developer",
+      "image": "public/img/avatar.png",
+      "email": "michaelvenadehuertas@gmail.com",
+      "phone": "(+598) 98544699",
+      "url": "https://johndoe.com",
+      "summary": "Soy un programador frontend junior proactivo y curioso, apasionado por aprender cosas nuevas y trabajar en equipo para desarrollar soluciones creativas y eficientes en el mundo digital.También me encuentro actualmente realizando trabajos prácticos como Frontend-React_Developer en una simulación de empleo real en No Country",
+      "location": {
+        "address": "Tabare, Esq Sastre",
+        "postalCode": "91000",
+        "city": "Pando",
+        "countryCode": "UY",
+        "region": "Canelones"
+      },
+      "profiles": [{
+        "network": "Linkedin",
+        "username": "MichaelVenade",
+        "url": "www.linkedin.com/in/michael-venade-1934112b1"
+      },
+      {
+        "network": "Github",
+        "username": "M1kev4h",
+        "url": "https://github.com/M1kev4h"
+      }]
+    },
+    "work": [{
+      "name": "No Country",
+      "position": "Frontend-Developer",
+      "url": "https://company.com",
+      "startDate": "2024-05-15",
+      "endDate": "null",
+      "summary": "Prácticas donde me desenvolví como desarrollador web front-end para el apartado visual de las páginas creadas como parte de la experiencia.",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    "education": [{
+      "institution": "UTU (Escuela Técnica “Gral. José Gervasio Artigas” - Sauce)",
+      "url": "https://institution.com/",
+      "area": "MT Programación 1-ero",
+      "studyType": " ",
+      "startDate": "2017-03-01",
+      "endDate": "2018-03-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ],
+      
+      "languages": [{
+        "language": "Español",
+        "fluency": "Hablante Nativo"
+      },
+      {
+        "language": "Inglés",
+        "fluency": "Básico"
+      }]
+    }],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Astro",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      }
+    ],
+    "projects": [  {
+      "name": "mars.codes",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": [
+        "Elige tu propia aventura",
+        "En desarrollo"
+      ],
+      "url": "https://mars.codes"
+    }]
+  }

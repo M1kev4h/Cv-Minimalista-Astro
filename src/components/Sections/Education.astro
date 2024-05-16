@@ -1,0 +1,101 @@
+---
+import Section from "../Section.astro";
+
+import { education } from "@cv";
+---
+<Section title="Educación">
+    <ul>
+        {
+            education.map(({institution, area, startDate, endDate, languages}) =>
+            {
+                const startYear = new Date(startDate).getFullYear()
+                const endYear =
+                  endDate !== null ? new Date(endDate).getFullYear() : "Actual"
+
+                return(
+                    <li>
+                        <article>
+                            <header>
+                               <div>
+                                <h3>{institution}</h3>
+                                    <h4>{area}</h4>
+                               </div>
+                               <div>
+                          <time 
+                            datetime={startDate}
+                            data-title={startDate}>
+                              {startYear}
+                          </time>
+                          {" - "}
+                          <time 
+                            datetime={endDate}
+                            data-title={endDate}>
+                              {endYear}
+                          </time>
+                        </div>
+                            </header>
+                        </article>
+                        <ul>
+        {
+            languages && languages.map(({language, fluency}) => {
+
+                return(
+                    <li>
+                        <section>
+                            <header>
+                                <h3>{language}</h3>
+                                <h4>{fluency}</h4>
+                            </header>
+                        </section>
+                    </li>
+                )
+            }
+        )
+        }
+    </ul>
+                    </li>
+                )
+            }
+        )
+        }
+    </ul>
+
+    
+
+</Section>
+
+<style>  
+ li{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+article h3{
+    font-weight: 500;
+    color: #111;
+}
+article h4{
+    font-weight: 400;
+    color: #222;
+}
+header h3{
+    font-weight: 500;
+    color: #111;
+}
+header h4{
+    font-weight: 400;
+    color: #222;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+time{
+    color: #555;
+    font-size: 0.85rem;
+}
+</style>
