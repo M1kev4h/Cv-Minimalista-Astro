@@ -2,7 +2,7 @@
     "basics": {
       "name": "Michael Venade",
       "label": "Frontend Developer",
-      "image": "public/img/avatar.png",
+      "image": "/avatar.png",
       "email": "michaelvenadehuertas@gmail.com",
       "phone": "(+598) 98544699",
       "url": "https://johndoe.com",
@@ -47,7 +47,7 @@
       "courses": [
         "DB1101 - Basic SQL"
       ],
-      
+
       "languages": [{
         "language": "Español",
         "fluency": "Hablante Nativo"
