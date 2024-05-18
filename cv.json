@@ -123,13 +123,13 @@
       }
     ],
     "projects": [  {
-      "name": "mars.codes",
+      "name": "Portafolios",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Descubre mas detalles sobre mis trabajos aqui",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "",
+        ""
       ],
-      "url": "https://mars.codes"
+      "url": "https://porfolio-orpin-six.vercel.app/"
     }]
   }
